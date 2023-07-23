@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
     requires = {
       'nvim-tree/nvim-web-devicons', -- optional
     },
-  }
+  },
+  use 'neomake/neomake'
 }
 end)

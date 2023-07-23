@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/rayanasadi/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  neomake = {
+    loaded = true,
+    path = "/Users/rayanasadi/.local/share/nvim/site/pack/packer/start/neomake",
+    url = "https://github.com/neomake/neomake"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/rayanasadi/.local/share/nvim/site/pack/packer/start/nvim-cmp",
