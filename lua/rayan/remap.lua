@@ -2,7 +2,7 @@ local KeyMap = {}
 
 vim.g.mapleader = " "
 
-vim.keymap.set('', '<leader>pv', ':NvimTreeFocus')
+vim.keymap.set('', '<leader>pv', ':NvimTreeFocus\n')
 
 function KeyMap.Colemak()
   -- Navigation keys
